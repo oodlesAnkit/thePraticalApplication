@@ -19,6 +19,9 @@ const AcademicTermSchema = new mongoose.Schema(
             ref: 'Admin',
             required: true
         }
+    },
+    {
+        timestamps: true
     }
 );
 
